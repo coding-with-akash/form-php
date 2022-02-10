@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
+.container{
+    /* display: flex; */
+    max-width: 80%;
+    /* background: pink; */
+    /* background-image: url("iit.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute; */
+    
+    
+    padding: 34px;
+    margin: auto;
+    /* justify-content: center; */
+    /* align-content: center; */
+    
+}
+.img{
+    width:100%;
+    position:absolute;
+    z-index: -1;
+}
+
+.container h1, p{
+    text-align: center;
+
+}
+input ,textarea{
+    /* display: block; */
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    border: 2px solid;
+    padding: 3px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+button{
+    width: 70px;
+    margin: auto;
+}
